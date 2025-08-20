@@ -1,0 +1,82 @@
+/*-------------------------CONTACT------------------------*/
+#contact {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#contact h2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border-bottom: 1 px solid black;
+    margin-bottom: 20px;
+}
+
+#contact .content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact form {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px 15px;
+}
+
+#contact form input,
+#contact form textarea,
+#contact form button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #555;
+    margin: 15px 0;
+    resize: none;
+}
+
+#contact .map {
+    min-width: 300px;
+    flex: 1;
+    padding: 30px 15px;
+
+}
+
+#contact .map iframe {
+    width: 100%;
+}
+
+#contact form button {
+    background-color: teal;
+    height: 40px;
+    color: white;
+    letter-spacing: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+#contact .box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#contact .box .text {
+    flex: 1;
+    margin: 15px;
+    min-width: 300px;
+}
+
+#contact .box .text h3 {
+    color: teal;
+    letter-spacing: 3px;
+}
+
+#contact .box .text p {
+    line-height: 1.4;
+    margin: 10px 0;
+}
+
+#contact .box .text span {
+    color: crimson;
+    font-weight: bold;
+}

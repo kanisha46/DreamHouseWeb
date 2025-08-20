@@ -1,0 +1,95 @@
+/*-------------------------ABOUT------------------------*/
+#about {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#about h2 {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#about .content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about .content .text {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+#about .content .text p {
+    line-height: 1.4;
+    margin: 10px 0;
+}
+#about .content .text a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 3px;
+    box-shadow: 4px 5px 10px #ddd;
+    transition: 0.3s ease-in-out;
+}
+
+#about .thumb {
+    flex: 1;
+    min-width: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about .thumb .thumb-box {
+    flex: 1;
+    min-width: 300px; 
+    cursor: pointer;
+    overflow: hidden;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 4px 5px 10px #ddd;
+    transition: 0.5s ease-in-out;
+}
+
+#about .thumb .thumb-box img {
+    width: 100%;
+    height: 450px;
+    display: block;
+    object-fit:cover;
+}
+
+#about .thumb .thumb-box h3 {
+    height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+#about .thumb .thumb-box:hover, 
+#about .content .text a:hover {
+    box-shadow: none;
+}
+
+#about .partner h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+#about .partner a {
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+    color: crimson;
+    display: inline-block;
+}
+
+#about .partner a:hover {
+    font-weight: 900;
+    color: teal;
+}
